@@ -1,6 +1,6 @@
 # 🎬 FlickNest
 
-A beautiful, offline-first movie and TV show explorer app built with Flutter.
+A beautiful, offline-first movie and TV show explorer app built with Flutter. Browse trending titles, create custom lists, and manage your watchlist—all without requiring sign-in or cloud services.
 
 <p align="center">
   <a href="https://github.com/miqdad23/FlickNest/releases">
@@ -23,6 +23,18 @@ A beautiful, offline-first movie and TV show explorer app built with Flutter.
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/1_home.png" width="19%" alt="Home">
+  <img src="screenshots/2_search.png" width="19%" alt="Search">
+  <img src="screenshots/3_details.png" width="19%" alt="Details">
+  <img src="screenshots/4_lists.png" width="19%" alt="Lists">
+  <img src="screenshots/5_settings.png" width="19%" alt="Settings">
+</p>
+
+---
+
 ## ✨ Features
 
 ### 🎯 Core Features
@@ -32,7 +44,7 @@ A beautiful, offline-first movie and TV show explorer app built with Flutter.
 - **Dark & Light Mode**: System-aware theme switching
 
 ### 🎬 Movie & TV Browsing
-- Browse trending movies and TV shows
+- Browse trending, popular, top-rated movies and TV shows
 - Search across movies, TV shows, and people
 - Advanced filters: year range, genres, ratings, languages, countries
 - Discover by genre
@@ -44,7 +56,7 @@ A beautiful, offline-first movie and TV show explorer app built with Flutter.
   - Custom names, descriptions, icons, and colors
   - Filter by Movie-only, TV-only, or Both
   - Advanced search, sort, and filter within lists
-- **Selection Mode**: Multi-select and batch operations
+  - Multi-select and batch operations
 
 ### 👤 Profile
 - Local profile with custom name, avatar, and cover photo
@@ -55,25 +67,6 @@ A beautiful, offline-first movie and TV show explorer app built with Flutter.
 - Filter by type, year, genres, languages, countries, ratings
 - Sort by relevance, popularity, or release date
 - Recent search history
-
----
-
-## 📸 Screenshots
-
-> Add your screenshots here
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: Flutter 3.9.2+
-- **Language**: Dart 3.9.2+
-- **State Management**: ChangeNotifier (built-in)
-- **Local Storage**: SharedPreferences
-- **HTTP Client**: Dio
-- **Image Caching**: cached_network_image
-- **Fonts**: Google Fonts (Inter, Quicksand)
-- **API**: The Movie Database (TMDB)
 
 ---
 
@@ -90,5 +83,5 @@ A beautiful, offline-first movie and TV show explorer app built with Flutter.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/miqdad23/flicknest.git
-   cd flicknest
+   git clone https://github.com/miqdad23/FlickNest.git
+   cd FlickNest

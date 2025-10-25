@@ -41,13 +41,7 @@ Future<void> main() async {
     if (kDebugMode) debugPrintStack(stackTrace: details.stack);
   };
 
-  runZonedGuarded(() => runApp(FlickNestOfflineApp(themeCtrl: themeCtrl)), (
-    error,
-    stack,
-  ) {
-    debugPrint('[ZonedError] $error');
-    if (kDebugMode) debugPrintStack(stackTrace: stack);
-  });
+  runApp(FlickNestOfflineApp(themeCtrl: themeCtrl));
 }
 
 class AppScrollBehavior extends ScrollBehavior {
@@ -55,7 +49,6 @@ class AppScrollBehavior extends ScrollBehavior {
   ScrollPhysics getScrollPhysics(BuildContext context) =>
       const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics());
 
-  // remove glow
   @override
   Widget buildOverscrollIndicator(
     BuildContext context,
@@ -102,12 +95,15 @@ class FlickNestOfflineApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'FlickNest (Offline)',
-          theme: AppTheme.light(brand).copyWith(pageTransitionsTheme: transitions),
-          darkTheme: AppTheme.dark(brand).copyWith(pageTransitionsTheme: transitions),
+          theme: AppTheme.light(
+            brand,
+          ).copyWith(pageTransitionsTheme: transitions),
+          darkTheme: AppTheme.dark(
+            brand,
+          ).copyWith(pageTransitionsTheme: transitions),
           themeMode: themeCtrl.themeMode,
           navigatorObservers: [routeObserver],
           scrollBehavior: AppScrollBehavior(),
-          // Fix: pass themeCtrl to HomePage
           home: HomePage(themeCtrl: themeCtrl),
         );
       },
