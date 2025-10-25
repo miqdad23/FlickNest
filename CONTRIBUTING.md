@@ -45,7 +45,7 @@ Thank you for your interest in contributing! 🎉
 
 ## 📬 Questions?
 
-Open a [Discussion](https://github.com/miqdad23/FlickNest/discussions) or email: mikdad23.bd@gmail.com
+Open a [Discussion](https://github.com/miqdad23/FlickNest/discussions) or [Join on Telegram](t.me/flicknest_app)
 
 ---
 
