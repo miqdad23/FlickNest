@@ -1,11 +1,25 @@
-# 🎬 FlickNest 
+# 🎬 FlickNest
 
-A beautiful, offline-first movie and TV show explorer app built with Flutter. Browse trending titles, create custom lists, and manage your watchlist—all without requiring sign-in or cloud services.
+A beautiful, offline-first movie and TV show explorer app built with Flutter.
 
-![Flutter](https://img.shields.io/badge/Flutter-3.9.2+-02569B?logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.9.2+-0175C2?logo=dart)
-![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android)
-![License](https://img.shields.io/badge/License-MIT-green)
+<p align="center">
+  <a href="https://github.com/miqdad23/FlickNest/releases">
+    <img src="https://img.shields.io/github/v/release/miqdad23/FlickNest?color=blue&label=Latest%20Release" alt="Latest Release">
+  </a>
+  <a href="https://github.com/miqdad23/FlickNest/releases">
+    <img src="https://img.shields.io/github/downloads/miqdad23/FlickNest/total?color=green" alt="Total Downloads">
+  </a>
+  <img src="https://img.shields.io/badge/Flutter-3.9.2+-02569B?logo=flutter" alt="Flutter">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android" alt="Platform">
+  <img src="https://img.shields.io/github/license/miqdad23/FlickNest?color=purple" alt="License">
+  <img src="https://img.shields.io/github/stars/miqdad23/FlickNest?style=social" alt="Stars">
+</p>
+
+<p align="center">
+  <a href="https://github.com/miqdad23/FlickNest/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Latest%20APK-blue?style=for-the-badge&logo=android" alt="Download APK">
+  </a>
+</p>
 
 ---
 
